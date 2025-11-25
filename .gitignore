@@ -1,0 +1,18 @@
+/node_modules
+/.next
+/out
+/dist
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache/Metadados do SO
+.DS_Store
+
+# Cache e Logs do Build
+.next/cache
