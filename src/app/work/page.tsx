@@ -30,7 +30,7 @@ export default function Home() {
         <div className="relative">
           <div className="absolute w-full h-full border-2 border-[#E2B473] bg-black opacity-70"></div>
           <img
-            src="./bemestar.jpg"
+            src="./manicure.jpg"
             alt="foto"
             className="w-[400px] h-[500px]"
           />

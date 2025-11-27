@@ -1,4 +1,5 @@
 import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -13,7 +14,9 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <img src="./white-header-photo.png" className="h-[70px]" />
           <div className="flex items-center gap-4">
-            <FaInstagram size={25} />
+            <Link href="https://www.instagram.com/fatima.silva18_/">
+              <FaInstagram size={25} />
+            </Link>
             <FaFacebook size={25} />
           </div>
         </div>
