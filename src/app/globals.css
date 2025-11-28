@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+#hero-phrase {
+  font-family: var(--font-alex-brush), cursive;
+}
+
+#services-section {
+  font-family: var(--font-poppins);
+}

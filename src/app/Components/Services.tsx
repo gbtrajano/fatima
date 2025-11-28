@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <section className="bg-linear-to-r from-[#193725] via-[#2b573d] to-[#193725] h-[50vh] flex items-center justify-center">
+    <section
+      className="bg-linear-to-r from-[#193725] via-[#2b573d] to-[#193725] h-[50vh] flex items-center justify-center"
+      id="services-section"
+    >
       <div className="flex items-center gap-4">
         <Link href="/work">
           <div className="relative hover:cursor-pointer">
