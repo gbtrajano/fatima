@@ -15,7 +15,7 @@ export default function Header() {
         <Link href="/contato" prefetch>
           Contato
         </Link>
-        <Link href="https://www.instagram.com/fatima.silva18_/">
+        <Link href="https://www.instagram.com/fatima.silva18_/" target="_blank">
           <FaInstagram size={25} />
         </Link>
       </nav>

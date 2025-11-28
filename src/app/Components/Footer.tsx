@@ -14,7 +14,10 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <img src="./white-header-photo.png" className="h-[70px]" />
           <div className="flex items-center gap-4">
-            <Link href="https://www.instagram.com/fatima.silva18_/">
+            <Link
+              href="https://www.instagram.com/fatima.silva18_/"
+              target="_blank"
+            >
               <FaInstagram size={25} />
             </Link>
             <FaFacebook size={25} />
@@ -28,7 +31,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col">
           <h1 className="italic tracking-widest text-2xl">Endereço</h1>
-          <p>R. Artur da Costa Silva - Belford Roxo</p>
+          <p>R. Artur da Costa Silva, 16 - Belford Roxo</p>
         </div>
       </div>
       <hr className="w-[60%] border" />
